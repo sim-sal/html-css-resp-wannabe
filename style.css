@@ -130,12 +130,70 @@ img {
 
  /* regole tablet */
 
-@media all and (max-width:768px) {
+@media all and (max-width:1024px) {
     .container{
         width: 768px;
     }
 }
 
  /* regole smartphone */
+@media all and (max-width:768px){
+    .container{
+        width: 480px;
+    }
 
- 
+    .row{
+        flex-direction: column;
+        margin-bottom: -15%;
+    }
+
+    /* regole sezione lessons*/
+    .lessons .col {
+        width: 100%;
+    }
+
+    /* regole sezione steps */
+    .steps .col{
+        width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    /* lesson e steps */
+    .card{
+        padding-bottom: 20%;
+        width: 80%;
+        margin: auto;
+    }
+
+    /* regole sezione why-us */
+    .why-us .container > .text-center{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    .why-us .col{
+        width: 100%;
+    }
+
+    .why-us .row{
+        padding-bottom: 20%;
+    }
+
+    .why-us{
+        padding-top: 10%;
+        background-color: rgb(29, 29, 29);
+    }
+
+    .why-us .col > img{
+        padding-bottom: 20%;
+    }
+
+    .why-us .col-right > ul{
+        width: 80%;
+        margin: auto;
+    }
+}

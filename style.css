@@ -132,14 +132,14 @@ img {
 
 @media all and (max-width:1024px) {
     .container{
-        width: 768px;
+        max-width: 768px;
     }
 }
 
  /* regole smartphone */
 @media all and (max-width:768px){
     .container{
-        width: 480px;
+         max-width: 480px;
     }
 
     .row{
